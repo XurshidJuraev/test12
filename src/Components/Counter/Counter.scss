@@ -1,0 +1,84 @@
+body{
+    background-color: #ffadf1;
+}
+.container{
+    max-width: 1240;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.tasbeh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count{
+    display: block;
+    text-align: center;
+    font-size: 70px;
+    width: 210px;
+    height: 84px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    
+    &__number{
+        width: 210px;
+        height: 200px;
+        border-radius: 50%;
+        border: none;
+        background-color: aqua;
+        font-size: 50px;
+        color: black;
+        border: 3px solid #4400ff;
+        margin-top: 100px;
+        display: block;
+        
+        
+        &:active{
+            opacity: 0.6;
+        }
+        
+        &0{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: none;
+            background-color: #4400ff;
+            margin-top: -50px;
+            border: 3px solid aqua;
+            color: white;
+
+            &:active{
+                opacity: 0.6;
+            }
+        }
+    }
+}
+.sozlar{
+    width: 370px;
+    height: 70px;
+    font-size: 22px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px #000;
+    font-weight: 700;
+    font-style: italic;
+}
+.divde{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+    .count__number0{
+        width: 70px;
+        height: 70px;
+    }
+}
